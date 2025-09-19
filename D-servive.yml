@@ -9,5 +9,5 @@ spec:
 
   ports:
     - protocol: TCP
-      port: 82       # cluster or host port / service port
+      port: 82       #  [ service port ] cluster or host port
       targetPort: 80 #container port (node)
